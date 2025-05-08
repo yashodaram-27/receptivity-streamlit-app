@@ -1,6 +1,6 @@
 streamlit
 tensorflow
-pillow
+keras
 numpy
 sklearn
 PIL
