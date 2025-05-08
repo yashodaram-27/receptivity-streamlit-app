@@ -1,5 +1,7 @@
 import streamlit as st
-from tensorflow.keras.applications.resnet50 import preprocess_input
+from tensorflow.keras.modules import load_model
+from tensorflow.keras.preprocessing import image
+from tensorflow.keras.applications.efficientnet import preprocess_input
 import numpy as np
 from PIL import Image
 
